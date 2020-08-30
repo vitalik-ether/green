@@ -17,7 +17,7 @@ def modify():
 
 
 def commit():
-    os.system('git commit -a -m test_github_streak > /dev/null 2>&1')
+    os.system('git commit -a -m "merge and update" > /dev/null 2>&1')
 
 
 def set_sys_time(year, month, day):
